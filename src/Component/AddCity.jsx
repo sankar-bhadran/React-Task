@@ -22,7 +22,7 @@ const AddCity = () => {
     <>
       <div className="bg-customGrey h-16   ">
         <h1 className="text-4xl font-bold flex justify-center p-3 font-Manrope text-customWhite">
-          Todo-List
+          Add City
         </h1>
       </div>
       <div>
@@ -36,7 +36,7 @@ const AddCity = () => {
               onChange={(e) => setInput(e.target.value)}
             />
             <button className=" px-4 py-2 bg-customBlue rounded font-bold font-Manrope hover:bg-white-500">
-              Add Task
+              Add city
             </button>
           </div>
         </form>
