@@ -8,7 +8,7 @@ const AddCity = () => {
   const addTask = (e) => {
     e.preventDefault();
     if (tasks.includes(input)) {
-      toast("Task already exists!");
+      toast("City already exists!");
       return;
     }
     if (input.trim() === "") {
@@ -57,7 +57,7 @@ const AddCity = () => {
           </ul>
         ) : (
           <p className="text-customWhite font-Manrope p-2">
-            No tasks added yet.
+            No city added yet.
           </p>
         )}
       </div>
